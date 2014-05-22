@@ -9,20 +9,20 @@ frm_token = random.random();
 url = 'http://karresults.nic.in/resSSLC2014.asp'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36'
 values = {'frm_tokens':frm_token, 
-					'regno': 20140100001,
+	  'regno': 20140100001,
           'B1':'Go' 
-					}
+	 }
 headers = { 'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-						'Accept-Encoding':'gzip,deflate,sdch',
-						'Accept-Language':'en-US,en;q=0.8',
-						'Cache-Control':'max-age=0',
-						'Connection':'keep-alive',
-						'Content-Type':'application/x-www-form-urlencoded',
-						'DNT':'1',
-						'Host':'karresults.nic.in',
-						'Origin':'http://karresults.nic.in',
-						'Referer':'http://karresults.nic.in/indexsslc2014.asp',
-						'User-Agent' : user_agent 
+	    'Accept-Encoding':'gzip,deflate,sdch',
+	    'Accept-Language':'en-US,en;q=0.8',
+	    'Cache-Control':'max-age=0',
+	    'Connection':'keep-alive',
+	    'Content-Type':'application/x-www-form-urlencoded',
+	    'DNT':'1',
+	    'Host':'karresults.nic.in',
+	    'Origin':'http://karresults.nic.in',
+	    'Referer':'http://karresults.nic.in/indexsslc2014.asp',
+	    'User-Agent' : user_agent 
 					} 
 subjects = [{},{},{},{},{},{},{}] 
 students = 0;
